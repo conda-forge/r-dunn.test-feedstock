@@ -1,4 +1,4 @@
-{% set version = '1.3.4' %}
+{% set version = "1.3.5" %}
 
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
@@ -12,7 +12,7 @@ source:
   url:
     - https://cran.r-project.org/src/contrib/dunn.test_{{ version }}.tar.gz
     - https://cran.r-project.org/src/contrib/Archive/dunn.test/dunn.test_{{ version }}.tar.gz
-  sha256: 8b9e974d1b5ac2f2b1dde5e44425e21ff9abc8b9bfdd39e24afe038f374ad0ee
+  sha256: 8a4419c5ba13fefc9ae01ec479f2207cd03ff87f01393b0e73cffb3ba8df1c53
 
 build:
   number: 0
