@@ -29,9 +29,11 @@ requirements:
   host:
     - r-base
     - r-rlang
+    - r-scrutiny
   run:
     - r-base
     - r-rlang
+    - r-scrutiny
 
 test:
   commands:
