@@ -1,4 +1,4 @@
-{% set version = "1.4.0" %}
+{% set version = "1.4.1" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/dunn.test_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/dunn.test/dunn.test_{{ version }}.tar.gz
-  sha256: 70f7a3f3c5c8e2f7082d3010b62edc1a0ba9d8a1a9957dfbcb78b6ba1af91acb
+  sha256: e643d844dd89a466effa603748d88a505daba4a75c405240282227bc9c880f0c
 
 build:
   number: 0
